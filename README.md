@@ -11,3 +11,4 @@ where Dockerfile path is the path to the Dockerfile in this repo. For example:
 `docker run -it LSTM_model:ver1 -v <path to train files>:/train/ -v <path to infer files>:/infer/ bash /app/infer.sh`  
 Note that it's possible to mount a `/scratch/` volume or a `/model/` volume, to save a copy of the models locally after training.
 4. Without using Docker, there's also a copy of an end-to-end Colab-enabled notebook (see video of real-time execution); note that the GDrive files must be mounted, so clone the files on the shared drive into your own GDrive prior to running: https://colab.research.google.com/drive/1sqtpD2z2a0eu_6qz5r6FJhOrG2MNymI6
+5. A copy of the results shown in the demo are here:  https://github.com/toekneesunshine/adl_final_project/blob/master/train_infer_all_in_one.ipynb
